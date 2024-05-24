@@ -1,7 +1,6 @@
 # ProductInventory
  
- Spring Boot, Spring Data JPA REST CRUD API with Security
-
+This is a Web API developed using Spring Boot, Spring Data JPA and Spring Security. The purpose of this API is to provide an API that users can perform basic CRUD operations.
 
 
 ## Technologies Used
@@ -54,10 +53,5 @@ ROLE=EMPLOYEE
 
 
 ## Database
+Role and users are in two tables with passwords stored as bcrytp hash, primary key being user_id in a members table.
 ![Screenshot of a db er diagram.](/images/db-diagram.png)
-
-## Roles
-![Screenshot of a db er diagram.](/images/testroles.png)
-
-## Project Structure
-![Screenshot of a project structure.](/images/project-structure.png)
