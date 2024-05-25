@@ -1,3 +1,4 @@
+/* 
 CREATE TABLE product (
   id int NOT NULL AUTO_INCREMENT,
   name varchar(255) DEFAULT NULL,
@@ -6,7 +7,7 @@ CREATE TABLE product (
   availability BOOL NULL,
   CONSTRAINT product_pkey PRIMARY KEY (id)
 );
-
+*/
 
 CREATE TABLE roles (
   user_id VARCHAR(50) NOT NULL,
